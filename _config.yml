@@ -20,14 +20,14 @@ title                    : "Coding Note"
 title_separator          : "&#124;"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "신시언"
-description              : "웹 개발 및 파이썬 금융데이터분석 코드들을 기록하는 포트폴리오 블로그"
+description              : "웹 개발 및 파이썬을 활용한 금융데이터분석 코드들을 기록하는 포트폴리오 블로그"
 url                      : "https://Shinsieon.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Shinsieon/Shinsieon.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "코드 기록 Blog"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -239,9 +239,9 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
-project_archive:
+Category-archive:
   type: liquid
-  path: /projects/
+  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
