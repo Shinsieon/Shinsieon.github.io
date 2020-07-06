@@ -48,3 +48,33 @@ for i in range(len(a)-1):
 print(a[idx], a[idx+1])
 ```
 </div>
+3. 다음 디브온 코드골프 문제
+''' c
+     *
+     *
+    * *
+   *   *
+  *     *
+**       **
+  *     *
+   *   *
+    * *
+     *
+     *
+을 그리시오
+'''
+
+[Show solution](#link){: .btn .btn--info}
+<div class="solution" markdown="1" style="display:none;font-size:15px">
+
+#### Code
+```python
+r= range(-5,6)
+for y in r:
+    l=""
+    for x in r:
+        a,b = abs(y),abs(x)
+        l = l+ (" ","*")[a+b==4 or (5,0) in [(a,b),(b,a)]]
+    print(l)
+```
+</div>

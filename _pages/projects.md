@@ -14,12 +14,12 @@ author_profile: true
 
 
 
-### [Python Algorithm solution]
+### [Python] Algorithm solution
 [코딩도장](http://codingdojang.com/)의 알고리즘 문제들과 솔루션들입니다.
 <br><br>
 [문제 및 풀이](/projects/solutions){: .btn .btn--success}
 {: .notice--primary}
 
-### [Python Stock evaluating program]
+### [Python] Stock evaluating program
 '채권쟁이 서준식의 다시 쓰는 주식 투자 교과서'에서 나온 가치투자를 모티브로 주식 종목의 현재가치와 주가를 비교하여 투자 의사결정을 내릴 수 있게 도와주는 프로그램입니다.
 [...Details](projects/stock_evaluation)
