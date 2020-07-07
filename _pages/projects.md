@@ -4,7 +4,7 @@ title: "Posts by projects"
 permalink: /projects/
 author_profile: true
 ---
-<sub>대학에 입학 후 경험해본 언어들과 프로젝트들을 기록해놓은 Project 공간</sub>
+<sub>지금까지 경험해본 언어들과 프로젝트들을 기록해놓은 Project 공간</sub>
 ---
 ## Categories :
 ### [PHP_Codeigniter]
@@ -21,5 +21,6 @@ author_profile: true
 {: .notice--primary}
 
 ### [Python] Stock evaluating program
-'채권쟁이 서준식의 다시 쓰는 주식 투자 교과서'에서 나온 가치투자를 모티브로 주식 종목의 현재가치와 주가를 비교하여 투자 의사결정을 내릴 수 있게 도와주는 프로그램입니다.
-[...Details](projects/stock_evaluation)
+'채권쟁이 서준식의 다시 쓰는 주식 투자 교과서'에서 나온 가치투자를 모티브로 주식 종목의 현재가치와 주가를 비교하여 투자 의사결정을 내릴 수 있게 도와주는 프로그램입니다.<br><br>
+[자세히 보기](/projects/stock_evaluation){: .btn .btn--success}
+{: .notice--primary}
