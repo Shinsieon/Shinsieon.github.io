@@ -18,8 +18,8 @@ Hi, My name is Sie on Shin. I am a student at KyungHee University and studying i
 
 ## My career
 
-- 2016, Graduated Korea digital media High school majored in Hacking defence
-- 2018, discharged from military service, specially Auxiliary police 
+- 2016, Graduated Korea digital media High school majored of Hacking defence
+- 2018, discharged from military service, specially Auxiliary police
 - 2019, Head of the Academy of industrial engineering
 - 2019, Internship course at Wylie
 - 2019, Developed <www.khuclub.co.kr>, personal project
