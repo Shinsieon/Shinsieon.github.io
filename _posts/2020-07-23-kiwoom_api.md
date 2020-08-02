@@ -18,9 +18,10 @@ use_math: true
 키움증권의 개발 가이드를 참조하면 CLSID는 {A1574A0D-6BFA-4BD7-9020-DED88711818D} 임을 알 수 있고, 이를 윈도우 레지스트리 편집기를 통해 검색하면 ProgID는 'KHOPENAPI.KHOpenAPICtrl.1'임을 알 수 있다.
 <br>
 
-## 키움증권 로그인과 주식기본정보 Tr데이터 수신   
-![image](https://user-images.githubusercontent.com/56333934/88310744-ff235100-cd4a-11ea-9688-b6d58f87ac7a.png)
+실행화면
+![image](https://user-images.githubusercontent.com/56333934/88457332-6e6e8180-cec0-11ea-9947-e300862733fe.png)
 
+## 키움증권 로그인과 주식기본정보 Tr데이터 수신   
 
 ```python
 self.kiwoom = QAxWidget("KHOPENAPI.KHOpenAPICtrl.1")
@@ -101,3 +102,54 @@ OnReceiveTrData 이벤트는 서버와 통신한 후 서버로부터 데이터�
 **CommGetData**
 ![image](https://user-images.githubusercontent.com/56333934/88356068-8f8c8080-cda1-11ea-9882-04d978a86c7a.png)
 OPEN API+에는 수 많은 TR이 있으므로 CommGetData의 첫 번째 인자와 세 번째 인자에 TR명과 Request 명을 입력해 어떤 TR에 대한 데이터를 얻고자 하는 것인지 알려줘야 한다. receive_data 메서드는 OnReceiveTrData 이벤트가 발생할 때마다 자동으로 호출이 된다. 어떤 TR 요청에 의해 OnReceiveTrData 이벤트가 발생했는지 확인하기 위해 먼저 사용자 Request 명(rqname)을 확인한다.
+
+## 계좌정보 얻기
+
+```python
+# 계좌얻기
+get_ac = QPushButton("계좌 얻기", self)
+get_ac.move(300, 20)
+get_ac.clicked.connect(self.get_account)
+
+self.acc_edit = QTextEdit(self)
+self.acc_edit.setGeometry(300, 60, 200, 300)
+self.acc_edit.setEnabled(False)
+
+def get_account(self):
+       account_num = self.kiwoom.dynamicCall("GetLoginInfo(QString)", ["ACCNO"])
+       self.acc_edit.append("계좌번호: " + account_num.rstrip(';'))
+```
+**GetLoginInfo**
+![image](https://user-images.githubusercontent.com/56333934/88457287-1fc0e780-cec0-11ea-971a-e12c77cf56d2.png)
+GetLoginInfo 메서드의 인자는 한 개인데 해당 위치에 정해진 문자열을 입력함으로써 계좌 개수, 계좌 번호, 사용자 ID 등을 구할 수 있음을 확인할 수 있다.
+
+## 유가증권 종목코드 얻기
+```python
+# 종목코드 얻기
+get_jcode = QPushButton("종목코드 얻기", self)
+get_jcode.move(500, 20)
+get_jcode.clicked.connect(self.get_jongmok)
+
+self.listWidget = QListWidget(self)
+self.listWidget.setGeometry(500, 60, 200, 300)
+
+def get_jongmok(self):
+    ret = self.kiwoom.dynamicCall("GetCodeListByMarket(QString)", \
+                                  ["0"])
+    kospi_code_list = ret.split(';')
+    kospi_code_name_list = []
+
+    for x in kospi_code_list:
+        name = self.kiwoom.dynamicCall("GetMasterCodeName(QString)", \
+                                       [x])
+        kospi_code_name_list.append(x + " : " + name)
+
+    self.listWidget.addItems(kospi_code_name_list)
+```
+**GetCodeListByMarket**   
+종목 코드 목록을 가져오는 메서드이다.
+![image](https://user-images.githubusercontent.com/56333934/88457391-ed63ba00-cec0-11ea-8672-35a3d86980f8.png)
+
+**GetMasterCodeName**   
+종목 코드로부터 한글 종목명을 구하기 위한 메서드
+![image](https://user-images.githubusercontent.com/56333934/88457417-1c7a2b80-cec1-11ea-8716-402de7352bc7.png)

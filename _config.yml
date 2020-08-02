@@ -90,7 +90,7 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
-
+google_fonts: "Nanum+Gothic:400,700"
 # Site Author
 author:
   name             : "신시언"
@@ -287,4 +287,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-      

@@ -74,7 +74,7 @@ fig.colorbar(surf, shrink=0.5, aspect=5)
 ![image](https://user-images.githubusercontent.com/56333934/87280486-27ca7000-c52d-11ea-8e26-90b23f6f7f84.png)
 
 ## 세타
-세타($ \Theta $)는 시간(T) 경과 대비 옵션가격의 변동율이다. 블랙-숄즈 방정식을 T로 편미분해서 구한다.
+세타($ \Theta $)는 시간(T) 경과 대비 옵션가격의 변동율이다. 블랙-숄즈 방정식을 T로 편미분해서 구한다.   
 $$ \Theta (call) = -{S_0 N'(d_1) \sigma \over {2 \sqrt{T}}} - rKe^{-rT}N(d_2) $$
 $$ \Theta (put) = -{S_0 N'(d_1) \sigma \over {2 \sqrt{T}}} + rKe^{-rT}N(-d_2) $$
 
