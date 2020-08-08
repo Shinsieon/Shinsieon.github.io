@@ -22,5 +22,6 @@ author_profile: true
 
 ### [Python] Stock evaluating program
 '채권쟁이 서준식의 다시 쓰는 주식 투자 교과서'에서 나온 가치투자를 모티브로 주식 종목의 현재가치와 주가를 비교하여 투자 의사결정을 내릴 수 있게 도와주는 프로그램입니다.<br><br>
-[자세히 보기](/projects/stock_evaluation){: .btn .btn--success}
+[version 1](/projects/stock_evaluation){: .btn .btn--success}
+[version 2](/projects/v2_stock_evaluation){: .btn .btn--success}
 {: .notice--primary}
