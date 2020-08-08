@@ -8,7 +8,7 @@ tags:
   - Option Greeks
 use_math: true
 ---
-## 델타
+## 델타 
 델타($\Delta$)는 기초자산 가격(S) 변동 대비 옵션가격의 변동입니다. 블랙 숄즈 방정식을 S로 편미분해서 구한다.
 $$ \Delta = { {dC} \over {dS} } = {\Delta(call) = N(d_1)}, \Delta (Put)=N(d_1)-1 $$
 
