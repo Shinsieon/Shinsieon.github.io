@@ -47,7 +47,7 @@ use_math: true
 
 >Property 1. The change Δz during a small period of time Δt is   
 
- $$ \Delta z = \epsilon\sqrt{\Delta t} $$    
+ $$\Delta z = \epsilon\sqrt{\Delta t}$$    
 
 >Property 2. The values of Δz for any two different short intervals of time, Δt, are independent.
 
