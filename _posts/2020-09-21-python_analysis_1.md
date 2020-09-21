@@ -106,3 +106,6 @@ plt.plot(x, graph_data["PC-D"], label="PC-D")
 plt.plot(x, graph_data["PC-E"], label="PC-E")
 ```
 ![image](https://user-images.githubusercontent.com/56333934/93764765-aa1e9100-fc4e-11ea-8027-b2311f1cd3b9.png)
+
+시각화된 데이터를 보면 PC-E가 매출을 견인하는 기종이라는 점과 매출 추이를 파악하는데 도움이 된다.
+{: .notice--warning}
