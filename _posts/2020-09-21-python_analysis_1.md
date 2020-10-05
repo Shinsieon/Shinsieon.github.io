@@ -9,7 +9,7 @@ tags:
 
 ![image](https://user-images.githubusercontent.com/56333934/93761301-88221000-fc48-11ea-954a-30257f36e227.png)
 
-이 도서를 참고하여서 작성된 포스트이다.
+이 도서를 참고하였음.
 {: .notice--primary }
 
 <span class="material-icons" style='font-size:150px;'>face</span>
