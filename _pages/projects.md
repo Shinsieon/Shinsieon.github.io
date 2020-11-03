@@ -7,9 +7,9 @@ author_profile: true
 <sub>지금까지 경험해본 언어들과 프로젝트들을 기록해놓은 Project 공간</sub>
 ---
 ## Categories :
-### [PHP_Codeigniter]
+### [PHP_Codeigniter]Club evaluating community
 **경희대학교 중앙동아리 커뮤니티입니다.** 주 목적은 신입회원들에게 좀 더 다양한 정보를 제공해주고 자신이 활동했던 동아리를 평가하고 후기를 남길 수 있게 함으로써 투명한 커뮤니티를 제공하기 위함입니다.<br><br>
-[경희대학교 중앙동아리 커뮤니티](//www.khuclub.co.kr){: .btn .btn--success}
+[경희대학교 중앙동아리 커뮤니티](http://www.khuclub.co.kr){: .btn .btn--success}
 {: .notice--primary}
 
 
