@@ -145,3 +145,7 @@ Mean-Variance 분석은 현대 포트폴리오 이론 중에 하나이며, 모�
 ### 투자성향에 대한 세분화 필요성
 본 연구는 투자자의 투자 성향을 “안정형, 위험 중립형, 공격 투자형” 세 가지로 분류하여 포트폴리오를 최적화하였다. 하지만 이는 투자자가 극단적인 투자를 한다는 가정 하에 서만 성립하는 분류이다. 현실에서는 공격 투자형이나 안정형에 지극히 편향된 투자를 하는 경우가 드물며 위험 중립형처럼 양 측의 이점을 분배하여 투자함으로써 효율적으로 투자하고자 한다. 그러나 본 연구는 이러한 중립적인 투자 성향을 1가지만 고려하여 투자자 선택의 폭을 줄였다는 한계가 있다.
  이는 투자 성향을 나누기 위해 활용했던 설문조사의 한계에 있다. 기존 수준에서는 투자 성향에 대해 3가지 Output만을 제공하기 때문이다. 이에 따라 추후 투자자의 현실적인 성향을 반영하기 위해 발전된 설문조사와 더불어 투자 성향 세분화에 대한 추가연구가 필요하다고 사료된다.
+
+ <div class="embed-container">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/eZ0nDQvS10A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ </div>
