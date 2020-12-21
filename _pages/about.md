@@ -4,8 +4,6 @@ title: "About"
 layouts_gallery:
   - url: /assets/images/self_image.jpg
     image_path: /assets/images/self_image.jpg
-  - url: /assets/images/self_image2.jpg
-    image_path: /assets/images/self_image2.jpg
 last_modified_at: 2020-07-03T21:42:22-04:00
 toc: true
 
