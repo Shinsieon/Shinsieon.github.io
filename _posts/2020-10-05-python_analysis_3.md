@@ -1,5 +1,5 @@
 ---
-title: "[파이썬 데이터분석 실무 테크닉]ch3"
+title: "[파이썬 데이터분석 실무 테크닉 100]ch3"
 categories:
   - Post Formats
 tags:
